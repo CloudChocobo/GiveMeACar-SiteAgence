@@ -1,13 +1,13 @@
 <template>
 	<Page>
-		<div class="content">Home</div>
+		<div class="content">Stock</div>
 	</Page>
 </template>
 
 <script>
 	import Page from "@/components/Page.vue";
 	export default {
-		name: "Home",
+		name: "Stock",
 		components: {Page},
 	};
 </script>
