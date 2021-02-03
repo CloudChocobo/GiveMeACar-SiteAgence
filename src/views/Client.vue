@@ -9,7 +9,7 @@
 	import Page from "@/components/Page.vue";
 	import CentreMultiFous from "../components/CentreMultiFous.vue";
 	export default {
-		name: "Stock",
+		name: "Client",
 		components: {Page, CentreMultiFous},
 	};
 </script>

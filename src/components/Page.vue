@@ -3,7 +3,9 @@
 		<BarreTop></BarreTop>
 		<main>
 			<NavLeft></NavLeft>
-			<slot></slot>
+			<div class="pageContent">
+				<slot></slot>
+			</div>
 		</main>
 	</div>
 </template>
@@ -29,5 +31,10 @@
 	.page main {
 		display: flex;
 		flex-grow: 1;
+	}
+	.pageContent {
+		display: flex;
+		flex-direction: column;
+		padding: 20px;
 	}
 </style>
