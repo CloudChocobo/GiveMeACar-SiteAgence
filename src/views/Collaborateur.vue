@@ -1,7 +1,7 @@
 <template>
 	<Page>
 		<div class="content">Stock</div>
-		<CentreMultiFous></CentreMultiFous>
+		<CentreMultiFous> </CentreMultiFous>
 	</Page>
 </template>
 
